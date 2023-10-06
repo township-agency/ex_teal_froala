@@ -1,0 +1,23 @@
+{
+  "name": "ex_teal_froala",
+  "version": "1.0.0",
+  "description": "ExTeal Plugin that provides a Froala WYSISYG editor",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./build.mjs",
+    "watch": "node ./build.mjs --watch",
+    "deploy": "node ./build.mjs --deploy"
+  },
+  "dependencies": {
+    "ex-teal-js": "^1.0.4",
+    "vue": "^2.6.10",
+    "vue-froala-wysiwyg": "4.0.19",
+    "vue-template-compiler": "2.7.14"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.19.4",
+    "esbuild-vue": "^1.2.2"
+  }
+}
