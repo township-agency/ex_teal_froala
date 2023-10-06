@@ -23,7 +23,8 @@ defmodule ExTealFroala.MixProject do
     [
       {:ex_teal, "~> 0.27"},
       {:plug, ">= 1.7.0 or >= 2.1.0"},
-      {:jason, ">= 1.0.0"}
+      {:jason, ">= 1.0.0"},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
 end

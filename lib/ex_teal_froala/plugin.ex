@@ -1,4 +1,7 @@
 defmodule ExTealFroala.Plugin do
+  @moduledoc """
+  ExTeal Plugin configuration for ExTealFroala
+  """
   use ExTeal.Plugin
   alias ExTeal.Asset.{Script, Style}
 
