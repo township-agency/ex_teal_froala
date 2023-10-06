@@ -12,7 +12,8 @@ defmodule ExTealFroala.Plugin do
 
   def styles, do: [%Style{path: "main.css"}]
 
-  def js_config, do: %{
-    froala_key: Application.get_env(:ex_teal_froala, :froala_key),
-  }
+  def js_config,
+    do: %{
+      froala_key: Application.get_env(:ex_teal_froala, :froala_key)
+    }
 end

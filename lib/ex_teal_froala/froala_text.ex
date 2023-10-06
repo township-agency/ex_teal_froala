@@ -25,5 +25,6 @@ defmodule ExTealFroala.FroalaText do
 
   See [Froal's documentation](https://froala.com/wysiwyg-editor/docs/concepts-land/) for more details.
   """
-  def with_config(field, options), do: %{field | options: Map.put(field.options, :config, options)}
+  def with_config(field, options),
+    do: %{field | options: Map.put(field.options, :config, options)}
 end
