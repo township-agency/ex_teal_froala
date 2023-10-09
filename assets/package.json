@@ -11,9 +11,9 @@
   },
   "dependencies": {
     "ex-teal-js": "^1.0.4",
-    "vue": "^2.6.10",
     "vue-froala-wysiwyg": "4.0.19",
-    "vue-template-compiler": "2.7.14"
+    "vue-template-compiler": "2.7.14",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "chokidar": "^3.5.3",
