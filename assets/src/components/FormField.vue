@@ -16,8 +16,6 @@
 <script>
 import { FormField, HandlesValidationErrors } from "ex-teal-js";
 
-let options = {};
-
 export default {
   mixins: [HandlesValidationErrors, FormField],
 
@@ -29,8 +27,10 @@ export default {
 
   computed: {
     config () {
+      const key = ExTeal.config.plugins.find((p) => p.uri === "froala").js_config.froala_key
+      const keyOptions = { key }
       return {
-        ...options,
+        ...keyOptions,
         ...this.field.options.config,
         events: {
           'image.beforeUpload': (images) => {
