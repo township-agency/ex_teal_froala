@@ -1,0 +1,4 @@
+.fr-view ul, .fr-view ol {
+  list-style: inherit;
+  text-align: -webkit-match-parent;
+}

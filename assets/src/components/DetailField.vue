@@ -1,7 +1,7 @@
 <template>
   <panel-item :field="field">
     <template slot="value">
-      <excerpt :content="field.value" class="fr-view"/>
+      <div class="fr-view" v-html="field.value"/>
     </template>
   </panel-item>
 </template>
