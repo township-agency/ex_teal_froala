@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/township-agency/ex_teal_froala/compare/v1.0.1...v1.0.2) (2023-11-15)
+
+
+### Bug Fixes
+
+* Teal overrides default list styles ([#6](https://github.com/township-agency/ex_teal_froala/issues/6)) ([1901b47](https://github.com/township-agency/ex_teal_froala/commit/1901b47c763a957e00e508d836599247d21adb38))
+
 ## [1.0.1](https://github.com/township-agency/ex_teal_froala/compare/v1.0.0...v1.0.1) (2023-10-12)
 
 
