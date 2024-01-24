@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/township-agency/ex_teal_froala/compare/v1.0.2...v1.0.3) (2024-01-24)
+
+
+### Bug Fixes
+
+* Froala form field should pass down errors ([0dd41f2](https://github.com/township-agency/ex_teal_froala/commit/0dd41f2bc1d89f5f6441da766c6ce63c7557520b))
+
 ## [1.0.2](https://github.com/township-agency/ex_teal_froala/compare/v1.0.1...v1.0.2) (2023-11-15)
 
 
